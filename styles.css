@@ -4,20 +4,23 @@
 
 li {
 	font-style: italic;
-	hyphens: none;
+	list-style-type: none;
+
 }
 
 span {
 	font-weight: bold;
 }
 
-.name, .image, .info {
-	border: 3px solid black;
+.content {
+	border: 3px solid #888888;
 	padding: 10px;
 }
 
-.info {
-	border: 6px solid red;
+body {
+	border: 3px solid #888888;
+	padding: 10px;
+	width: 300px;
 }
 
 .image {
